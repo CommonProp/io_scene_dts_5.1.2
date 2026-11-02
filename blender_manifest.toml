@@ -3,8 +3,8 @@ schema_version = "1.0.0"
 id = "io_scene_dts"
 version = "1.1.0"
 name = "Torque DTS format"
-tagline = "Made for Blender 5.1.2. Import-Export DTS/DSQ v24, meshes, UVs, materials and textures"
-maintainer = "port"
+tagline = "Import-Export Torque DTS/DSQ v24 shapes and animations"
+maintainer = "CommonProp"
 type = "add-on"
 tags = ["Import-Export"]
 blender_version_min = "5.1.0"
@@ -13,4 +13,4 @@ license = [
 ]
 
 [permissions]
-files = "Import and export DTS/DSQ files and load nearby or bundled textures"
+files = "Read and write DTS/DSQ files and load nearby or bundled textures"

@@ -8,7 +8,7 @@ This repository is the **Blender 5.1** version. The Blender 4.3 version is a sep
 
 Requires **Blender 5.1 or newer** (made for 5.1.2). This is a Blender **extension** (`blender_manifest.toml`).
 
-1. Download the release zip, built with `blender --command extension build` from this folder (not GitHub's "Download ZIP", which isn't a valid extension package).
+1. Download `io_scene_dts-<version>-blender-5.1.zip` from [Releases](https://github.com/CommonProp/io_scene_dts_5.1.2/releases), built with `blender --command extension build` from this folder (GitHub's "Download ZIP" also installs, but it carries the repository's development files).
 2. `Edit > Preferences > Get Extensions`, the drop-down at the top right, **Install from Disk...**, pick the zip.
 3. Enable **Torque DTS format**.
 
@@ -81,4 +81,4 @@ Based on [io_scene_dts](https://github.com/qoh/io_scene_dts) by port (Nick Smith
 
 MIT License, see [LICENSE](LICENSE).
 
-[other-version]: https://github.com/YOUR-GITHUB-NAME/io_scene_dts_4.3.2
+[other-version]: https://github.com/CommonProp/io_scene_dts_4.3.2
